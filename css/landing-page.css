@@ -1,0 +1,71 @@
+body {
+	font-family: 'Nunito', Arial, sans-serif;;
+	padding-top: 70px;
+	background-color: #19272D;
+}
+h2 {
+	padding-top: 170px;
+	color: #fff;
+}
+h3 {
+	color: #aaa;
+}
+.btn-green {
+	color: #000;
+	background-color: #5cd994;
+	margin-top: 100px;
+	font-size: 16px;
+	padding: .875rem 1.75rem;
+}
+.btn-green:hover {
+	color: #000;
+}
+.navbar {
+	background-color: #19272D;
+	border-bottom: none;
+}
+.navbar-inverse .navbar-nav li a {
+	color: #fff;
+	font-size: 18px;
+}
+.navbar-inverse .navbar-brand {
+	color: #fff;
+	font-size: 28px;
+}
+.glyphicon {
+	vertical-align: middle;
+}
+/* Border under collapsing navbar */
+.navbar-inverse .navbar-collapse {
+	border: none;
+}
+/* Collape button */
+.navbar-inverse .navbar-toggle {
+	background-color: #19272D !important;
+	border: none;
+}
+
+/* iPhone 6 Plus */
+@media only screen and (max-width: 414px) {
+	h2 {
+		padding-top: 75px;
+	}
+	.btn-green {
+		margin-top: 75px;
+	}
+}
+/* iPhone 4 */
+@media only screen and (max-width: 320px) {
+	h2 {
+		padding-top: 25px;
+	}
+}
+/* iPhone 6 Plus in Portrait */
+@media only screen and (max-height: 414px) and (orientation: landscape) {
+	h2 {
+		padding-top: 0;
+	}
+	.btn-green {
+		margin-top: 50px;
+	}
+}

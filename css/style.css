@@ -1,0 +1,32 @@
+body {
+	padding-top: 70px;
+	padding-bottom: 25px;
+}
+.navbar .navbar-brand img {
+	margin-top: -15px;
+	height: 50px;
+	width: 150px;
+}
+@media only screen and (max-width: 767px) {
+	.pad-input {
+		margin-bottom: 15px;
+	}
+}
+#addPlayerForm {
+	display: none;
+}
+/* darker gray stripes */
+.table-striped > tbody > tr:nth-of-type(2n+1) {
+	background-color: #efefef;
+}
+/* darker green stripes */
+.table > tbody > tr.success > td {
+	background-color: #bedab3;
+}
+/* darker red stripes */
+.table > tbody > tr.danger > td {
+	background-color: #e7b2b2;
+}
+.table-responsive {
+	border: none;
+}
